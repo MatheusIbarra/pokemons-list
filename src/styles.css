@@ -1,0 +1,20 @@
+* {
+    font-family: 'Mulish', sans-serif;
+}
+
+/* Track */
+::-webkit-scrollbar {
+    width: 13px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: rgba(196, 196, 196, 0.31);
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(196, 196, 196, 0.31);
+    border-radius: 10px;
+}
