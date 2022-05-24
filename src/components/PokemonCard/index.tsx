@@ -7,12 +7,12 @@ type CardProps = {
   cod: number;
   type: string;
   imgUrl: string;
+  onClick?: React.MouseEventHandler<HTMLDivElement> | undefined;
 };
 
-const PokemonCard: React.FC<CardProps> = ({ name, cod, type, imgUrl }) => {
+const PokemonCard: React.FC<CardProps> = ({ name, cod, type, imgUrl, onClick }) => {
   return (
-    <S.Container>
-
+    <S.Container onClick={onClick}>
       <S.PokemonImage src={imgUrl} alt="pokemon"></S.PokemonImage>
       <div>
         <h3>{name}</h3>

@@ -1,7 +1,8 @@
 import React from "react";
 
-import * as S from "./styles";
 import Logo from "assets/images/kotas-logo.png";
+
+import * as S from "./styles";
 
 const Header: React.FC = () => {
   return (
